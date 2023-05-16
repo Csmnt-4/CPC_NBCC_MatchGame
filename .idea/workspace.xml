@@ -4,15 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f62ccada-57fe-4fe1-8c81-d5b33a90181c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MatchGame.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MatchGame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/manager/GameDialogue.java" afterDir="false" />
+    <list default="true" id="f62ccada-57fe-4fe1-8c81-d5b33a90181c" name="Changes" comment="State of Assignment1A">
+      <change afterPath="$PROJECT_DIR$/src/manager/AudioManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/manager/LevelManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MatchGame.iml" beforeDir="false" afterPath="$PROJECT_DIR$/MatchGame.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/audio/correct.wav" beforeDir="false" afterPath="$PROJECT_DIR$/resources/audio/correct.wav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/audio/wrong.wav" beforeDir="false" afterPath="$PROJECT_DIR$/resources/audio/wrong.wav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/blueHi.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/images/blueHi.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/blueLo.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/images/blueLo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/greenHi.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/images/greenHi.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/greenLo.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/images/greenLo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/redHi.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/images/redHi.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/redLo.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/images/redLo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/yellowHi.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/images/yellowHi.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/yellowLo.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/images/yellowLo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/manager/GameDialogue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/manager/GameDialogue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/manager/IconManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/manager/IconManager.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +37,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="2PCOAQLM675pLgSF0waAqIkCDp0" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -38,19 +49,32 @@
     <option name="showMembers" value="true" />
     <option name="showVisibilityIcons" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Desktop/MatchGameAssignment",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Desktop/MatchGameAssignment&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Global Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\csmnt\eclipse-workspace\Anisimov_Victor_Assignment1B\resources" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -61,10 +85,38 @@
       <updated>1682957454726</updated>
       <workItem from="1682957455975" duration="4586000" />
       <workItem from="1683546307975" duration="2499000" />
+      <workItem from="1684255546402" duration="830000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="part_two" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
